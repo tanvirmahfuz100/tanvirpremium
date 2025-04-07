@@ -1,3 +1,5 @@
+require('./errorHandler'); // Add this line
+
 const express = require('express');
 const app = express();
 
