@@ -3,7 +3,7 @@ import json
 
 def generate_manifest():
     manifest = []
-    base_url = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_FILES_REPO/main/files/"
+    base_url = "https://raw.githubusercontent.com/tanvirmahfuz100/tanvirpremium/main/files/"
     
     # Walk through the "files" directory
     for root, dirs, files in os.walk('files'):
